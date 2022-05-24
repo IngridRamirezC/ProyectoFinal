@@ -15,7 +15,6 @@ body a {
 body h1 {
   font-family: "Song Myung", serif; 
 }
-/* DEFAULT STYLE */
 :root {
   font-size: 16px;
   --card-img-height: 200px; 
@@ -66,14 +65,12 @@ body h1 {
 .card .card-info {
   position: relative;
   padding: 0.75rem 1.25rem;
-  transition: all 200ms ease-in-out; 
 }
 .card .card-info .card-about {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 0;
-  transition: all 200ms ease-in-out; 
 }
 .card .card-info .card-about .card-tag {
   width: 60px;
@@ -104,7 +101,6 @@ body h1 {
 }
 .card .card-info .card-creator {
   padding-bottom: 0.75rem;
-  transition: all 250ms ease-in-out; 
 }
 .card:hover {
 cursor: pointer;
@@ -125,8 +121,9 @@ transform: scale(1.025);
   color: #ebecf0;
   transform: translate(0, 40px); 
 }
-​
+
 .card-1 .card-img,.card-1 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), url(https://phantom-marca.unidadeditorial.es/2a6bb9293b020d388e4c1b1d3e640f1a/resize/1320/f/jpg/assets/multimedia/imagenes/2021/02/28/16145196328904.jpg); 
+  background-image: var(--card-img-hovered-overlay), 
+  url(https://phantom-marca.unidadeditorial.es/2a6bb9293b020d388e4c1b1d3e640f1a/resize/1320/f/jpg/assets/multimedia/imagenes/2021/02/28/16145196328904.jpg); 
 
 }
