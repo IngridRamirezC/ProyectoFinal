@@ -28,7 +28,6 @@ body h1 {
   align-items: center;
   transition: all 200ms ease-in-out; 
 }
-​
 .card {
   align-self: flex-start;
   position: relative;
